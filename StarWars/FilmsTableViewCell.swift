@@ -23,5 +23,6 @@ final class FilmsTableViewCell: UITableViewCell {
         title.text = film.title
         episode.text = "episode \(film.episodeId)"
         characters.text = "\(film.characters.count) characters"
+        accessoryType = .disclosureIndicator
     }
 }

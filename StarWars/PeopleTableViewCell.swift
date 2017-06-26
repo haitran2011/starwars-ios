@@ -23,5 +23,6 @@ class PeopleTableViewCell: UITableViewCell {
         name.text = person.name.lowercased()
         gender.text = person.gender
         race.text = person.species
+        accessoryType = .disclosureIndicator
     }
 }
